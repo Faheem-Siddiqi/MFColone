@@ -5,7 +5,7 @@ import Image from "next/image";
 import { CiLocationOn } from "react-icons/ci";
 import Favourited from "./Favourited";
 import styles from "./officeSearch.css";
-import Map from "./Map.jsx";
+import  Map from "./Map.jsx";
 export default function Content() {
   const [isClicked, setIsClicked] = useState(false);
  

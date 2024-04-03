@@ -5,7 +5,7 @@ export default function OfficeSearch() {
   return (
     <>
       <Filters />
-        {/* <Content /> */}
+        <Content />
     </>
   );
 }
