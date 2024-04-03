@@ -5,7 +5,7 @@ import Image from "next/image";
 import { CiLocationOn } from "react-icons/ci";
 import Favourited from "./Favourited";
 import styles from "./officeSearch.css";
-import  Map from "./Map.jsx";
+// import  Map from "./Map.jsx";
 export default function Content() {
   const [isClicked, setIsClicked] = useState(false);
  
@@ -634,7 +634,7 @@ export default function Content() {
           className={` ${isClicked ? "lg:w-[80.5%] mx-2 " : "lg:w-[31.5%]  "
             } w-fit  bg-stone-600  lg:order-3`}
         >
-          <Map className="w-fit" />
+          {/* <Map className="w-fit" /> */}
         </div>
       </div>
     </>
