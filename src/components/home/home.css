@@ -1,0 +1,16 @@
+.PrimeServicesSvg {
+   stroke: lightgray !important;
+   transition: all 0.3s
+}
+.PrimeServicesSvg {
+   transition: all 0.5s;
+}
+.primeServieGroup:hover .PrimeServicesPath:hover {
+   stroke: none !important;
+}
+.primeServieGroup:hover .PrimeServicesSvg {
+   filter: drop-shadow(-1px 3px 6px rgba(200, 159, 55, 0.514));
+}
+.primeServieGroup:hover .PrimeServicesPath {
+   stroke: transparent;
+}
